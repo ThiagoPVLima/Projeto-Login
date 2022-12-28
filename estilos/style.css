@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/*
+Paleta de cores
+Verde: #49a09d
+Lilás: #5f2c82 
+ */
+
+:root {
+    --Verde: #49a09d;
+    --Lilás: #5f2c82;
+    --Preto: #000000;
+    --Branco: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    background-color: var(--Verde);
+}
